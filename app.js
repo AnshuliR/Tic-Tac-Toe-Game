@@ -37,7 +37,6 @@ boxes.forEach((box) => {
         }
         box.disabled = true;
         count++;
-        console.log("clicked", count);
         let isWinner = checkWinner();
 
         if (count === 9 && !isWinner) {
